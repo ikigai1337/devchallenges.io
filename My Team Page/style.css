@@ -3,6 +3,7 @@
      box-sizing: border-box;
 }
 
+
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
@@ -19,12 +20,39 @@
 
 /******************************************
 /* BASE STYLES
+
+
+
 /*******************************************/
 
 body {
 
 }
 
+.container {
+     /* border: 1px solid red; */
+     margin: 50px 200px;
+}
+
+header {
+     display: flex;
+     justify-content: space-between;
+     gap: 200px;
+}
+
+h1{
+     /* border: 1px solid yellow; */
+     width: 100%;
+     font-family: 'PT Serif', sans-serif ;
+     font-size: 36px;
+}
+.info {
+     font-family: 'Poppins', sans-serif;
+     font-size: 18px;
+}
+h3 {
+     /* font-size: 18px; */
+}
 
 /******************************************
 /* LAYOUT
