@@ -22,9 +22,83 @@
 /*******************************************/
 
 body {
-
+     background-color: #181719;
+     color: white;
+     /* margin: 40px 80px; */
+     padding: 40px 80px;
 }
 
+.logo {
+     border: 1px solid white;
+     padding: 10px;
+     /* margin: auto; */
+     /* text-align: center; */
+     font-size: 14px;
+}
+
+a {
+     color: white;
+     text-decoration: none;
+}
+ul {
+     list-style: none;
+}
+
+ul li {
+     display: inline;
+     /* border: red 1px solid; */
+     margin: 0px 50px;
+}
+
+ul li:hover {
+     border-bottom-width: 3px;
+     border-bottom-style: solid;
+     padding-bottom: 7px;
+}
+nav {
+     display: flex;
+     justify-content: space-between;
+}
+
+.hero {
+     display: flex;
+     justify-content: space-between;
+     /* border: red 1px solid; */
+     margin-top: 100px;
+     box-sizing: border-box;
+}
+
+.left {
+     display: flex;
+     /* justify-content: center; */
+     flex-wrap: wrap;
+     align-items: center;
+     /* width: 100%; */
+}
+
+h1 {
+     font-size: 20px;
+     font-weight: 500;
+     width: 100%;
+}
+
+p {
+     font-size: 24px;
+     font-weight: 400;
+     line-height: 29.26px;
+     max-width: 450px;
+     /* padding: 50px 0px; */
+}
+
+.read {
+     /* font-size: 18px; */
+     width: 100%;
+}
+
+.theimg{
+     width: 571.11px;
+     height: 486.53px;
+}
 
 /******************************************
 /* LAYOUT
