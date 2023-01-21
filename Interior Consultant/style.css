@@ -100,6 +100,38 @@ p {
      height: 486.53px;
 }
 
+.thebox {
+     background-color: #38343c;
+     width: 350px;
+     height: 150px;
+     position: absolute;
+     right: 140px;
+     bottom: -100px;
+     /* margin-top: 250px; */
+}
+
+
+h4 {
+     width: 100%;
+     font-size: 14px;
+}
+
+.top{
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.pdf {
+     width: 45px;
+     border-radius: 50%;
+     height: 39px;
+}
+.h2 {
+     font-size: 24px;
+}
+.secondp {
+     font-size: 12px;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
