@@ -37,7 +37,8 @@ body {
      /* margin: auto; */
      /* text-align: center; */
      font-size: 14px;
-     font-family: 'Crimson Pro', serif;
+     font-family: 'Crimson Pro';
+     margin-bottom: 65px;
 }
 
 a {
@@ -187,15 +188,77 @@ line-height: 31px;
      font-size: 12px;
      line-height: 15px;
 /* identical to box height */
-
-
 /* Gray 3 */
 
 color: #828282;
 }
+
+#hamburger-icon {
+     background: white;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+@media screen and (max-width:900px) { 
+     body {
+          margin: 0;
+          padding: 20px;
+     }
+     
+     .theimg {
+          width: 100%;
+     }
+
+     .navi {
+          display: none;
+     }
+
+     .thelist {
+
+     }
+
+     .navi a {
+          border: 2px red solid;
+          background: black;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+     }
+     .hero {
+          margin-top: 50px;
+     }
+
+     .maincontainer {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .hero {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+     }
+
+     .content {
+          display: flex;
+          flex-direction: column;
+     }
+     .top {
+          position: absolute;
+          left: 0;
+          top: 0;
+     }
+
+     html {
+          padding: 0;
+          margin: 0;
+     }
+
+}
+
 header {
 
 }
